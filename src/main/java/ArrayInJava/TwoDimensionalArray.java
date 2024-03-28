@@ -24,7 +24,7 @@ public class TwoDimensionalArray{
   }
 
   // Multi-Dimensional Array 
-      // Two-Dimensional Array is one of the type of Multi-Dimensional Array
+    // Two-Dimensional Array is one of the type of Multi-Dimensional Array
       // dataType[][] arrayName; -> declaration
       // arrayName = new dataType[rows][cols]; -> initialization
       // dataType[][] arrayName = new dataType[rows][cols]; -> declaration + iniitalization
