@@ -1,3 +1,4 @@
+// import LinkedListInJava.CircularLinkedList;
 // import java.util.Arrays;
 // import ArrayInJava.OneDimensionalArray;
 // import ArrayInJava.TwoDimensionalArray;
@@ -8,7 +9,25 @@
 public class Main {
   public static void main(String[] args) {
 
+    // Circular LinkedList in java
+    // CircularLinkedList<Integer> cll=new CircularLinkedList<Integer>();
+     // cll.printCLL();
 
+    // cll.insert(0, 3);
+    // cll.insert(1,5);
+    // cll.insert(1,4);
+    // cll.insert(3,7);
+    // cll.insert(0,1);
+    // cll.insert(2,2);
+
+    // cll.printCLL();
+
+    // // cll.remove(8);
+    // // cll.remove(0);
+    // cll.remove(4);
+
+    // cll.printCLL();
+    
     
     // LinkedList is a linear data structure which is a collection of nodes.
     // Nodes in LinkedList are independent which store value and refernece to next node.

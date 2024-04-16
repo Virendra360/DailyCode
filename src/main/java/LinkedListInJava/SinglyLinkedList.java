@@ -1,16 +1,5 @@
 package LinkedListInJava;
 
-// Only one class in a Java file can be declared as public, and the name of the file must match the name of this public class
-// you can have as many non-public classes as you want in the same file. These classes can't be accessed from outside the file in which they are defined.
-class Node<T>{
-    public  T value;
-    public Node<T> next;
-
-  public Node(T value){
-    this.value=value;
-    this.next=null;
-  }
-}
 
 public class SinglyLinkedList<T>{
 
@@ -125,12 +114,14 @@ public class SinglyLinkedList<T>{
          T element=head.value;
          head=null;
          tail=null;
+      size--;
       return element;
     }
     // case 2: size of S.L.L. is greater than 1
     if(location==0 && size>1){
       T element=head.value;
       head=head.next;
+      size--;
       return element;
     }
 
@@ -144,6 +135,7 @@ public class SinglyLinkedList<T>{
       T element=tail.value;
       prevNode.next=null;
       tail=prevNode;
+      size--;
       return element;
     }
 
@@ -159,6 +151,7 @@ public class SinglyLinkedList<T>{
      T element = currNode.value;
      currNode=currNode.next;
      prevNode.next=currNode;
+      size--;
      return element;
   }
   
